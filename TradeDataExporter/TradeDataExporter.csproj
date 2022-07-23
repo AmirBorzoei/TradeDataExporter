@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TradeDataExporter.Data.Ado\TradeDataExporter.Data.Ado.csproj" />
+    <ProjectReference Include="..\TradeDataExporter.Data.EF\TradeDataExporter.Data.EF.csproj" />
+    <ProjectReference Include="..\TradeDataExporter.Model\TradeDataExporter.Model.csproj" />
+  </ItemGroup>
+
+</Project>
